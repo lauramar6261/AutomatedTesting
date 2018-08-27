@@ -56,11 +56,13 @@ describe Card do
 
     it "Can retrieve the value of the card using a `.value`." do
       # ensure that `.value works as expected`
+      expect(@my_card.value).must_equal 2
+
     end
 
-    it "Can retrieve the value of the card using a `.suit`." do
+    it "Can retrieve the suit of the card using a `.suit`." do
       # ensure that `.suit works as expected returning the symbol of the suit`
-
+      expect(@my_card.suit).must_equal :clubs
     end
   end
 

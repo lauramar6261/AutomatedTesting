@@ -37,4 +37,12 @@ class Card
 
   end
 
+  def value
+    return @value
+  end
+
+  def suit
+    return @suit
+  end
+
 end
